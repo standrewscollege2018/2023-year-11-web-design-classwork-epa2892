@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+}
+.sidebar{
+    background-color: aqua;
+    margin-right: 10px;
+    padding: 20px;
+
+}
+.content{
+    background-color: blueviolet;
+    padding: 20px;
+    
+
+}

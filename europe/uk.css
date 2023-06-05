@@ -16,6 +16,7 @@ h1 {
     color: black ;
     margin-bottom: 20px;
     font-family: Deli, Helvetica, sans-serif;
+    text-align: center;
 }
 a:link {
     color: lightblue;
@@ -45,3 +46,13 @@ li {
     padding: 10px;
 }
 
+.container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 20px;
+}
+.card {
+	border: 1px solid rgb(12, 34, 56);
+	border-radius: 20px;
+	padding: 20px;
+}
