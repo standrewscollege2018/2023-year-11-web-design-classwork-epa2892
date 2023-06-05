@@ -31,7 +31,9 @@ a:hover {
 }
 p {
     padding-bottom: 5px;
-    color: black
+    color: black;
+    text-align: center;
+    
 
 }
 h2 {
@@ -60,4 +62,17 @@ li {
     padding: 20px;
     
 
+}
+.countrycontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.card {
+	border: 1px solid rgb(12, 34, 56);
+	border-radius: 20px;
+	padding: 20px;
+}
+.card img{
+    max-width: 100%;
+    height: auto;
 }
