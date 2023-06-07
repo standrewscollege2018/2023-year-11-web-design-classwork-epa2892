@@ -52,16 +52,15 @@ li {
 
 }
 .sidebar{
-    
+    border: 5px black solid;
     margin-right: 10px;
     padding: 20px;
 
 }
 .content{
-    
+    margin: 20px;
     padding: 20px;
-    
-
+    text-size-adjust: 30;
 }
 .countrycontainer {
     display: grid;
@@ -69,10 +68,29 @@ li {
 }
 .card {
 	border: 1px solid rgb(12, 34, 56);
-	border-radius: 20px;
-	padding: 20px;
+	border-radius: 10px;
+	margin: 5px;
+    
 }
 .card img{
+    max-width: 100%;
+    height: auto;
+}
+@media only screen and (max-width:800px) {
+    .container {
+        grid-template-columns: 1fr;
+
+
+    }
+    .sidebar{
+        border: 5px black solid; 
+        border-radius: 5px;
+    }
+    .sidebar img{
+        display: none;
+    }
+}
+.sidebar img{
     max-width: 100%;
     height: auto;
 }
