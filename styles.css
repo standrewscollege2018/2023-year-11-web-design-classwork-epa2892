@@ -73,29 +73,32 @@
   }
   h1{
     text-align: center;
+    
+  }
+  .Menu h1 {
+    background-color: #093824;
+    color: #E5EAFA;
   }
   .bottombanner{
     background-color: #E09F3E;
   }
-  .menutitle{
-    background-color: #093824;
-   
-  }
-.menutitle h1{
-    color: #E5EAFA;
-}
-.contacttitle{
-    background-color: #093824;
-}
-.contacttitle h1{
-    color: #E5EAFA;
-}
+  
 .menulinks{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-.menulinks a{
     text-align: center;
+    padding: 50px;
+    color: #E5EAFA;
 }
-  
-  
+.imagemap img{
+    max-width: 100%;
+    height: auto;
+}
+.imagemenu img{
+    max-width: 100%;
+    height: auto;
+}
+.contactdeatails h1{
+    background-color: #093824;
+    color: #E5EAFA;
+}
